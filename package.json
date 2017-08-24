@@ -1,0 +1,61 @@
+{
+    "name": "nuke-theme-list",
+    "description": "具有多种卡片的无限滚动的下拉列表",
+    "version": "0.0.4",
+    "keyword": [
+        "next",
+        "fusion",
+        "pc",
+        "nuke-new-demo"
+    ],
+    "scripts": {
+        "start": "DEV=1 LIVELOAD=1 ./node_modules/.bin/webpack-dev-server --config ./webpack.config.js --host 0.0.0.0 --port 9000",
+        "build": "./node_modules/.bin/webpack --config ./webpack.config.js",
+        "lint": "./node_modules/eslint/bin/eslint.js --fix ./ --ext .jsx --ext .js"
+    },
+    "readmeFilename": "README.md",
+    "tnpm": {
+        "mode": "npminstall"
+    },
+    "dependencies": {
+        "nuke": "^0.7.x",
+        "babel-eslint": "^7.2.3",
+        "qs": "^6.4.0",
+        "rax": "^0.4.x"
+    },
+    "devDependencies": {
+        "eslint": "3.19.0",
+        "eslint-config-ali": "2.0.0",
+        "eslint-plugin-import": "2.6.0",
+        "eslint-plugin-jsx-a11y": "6.0.2",
+        "eslint-plugin-react": "7.1.0",
+        "globby": "~6.1.0"
+    },
+    "compatibility": {
+        "qn": {
+            "ios": "true",
+            "android": "true"
+        },
+        "tb": {
+            "ios": "true",
+            "android": "true"
+        },
+        "tm": {
+            "ios": "true",
+            "android": "true"
+        }
+    },
+    "keywords": [
+        "nuke-theme",
+        "list"
+    ],
+    "themeOption": {
+        "screenshot": [
+            "https://img.alicdn.com/tfs/TB1.vBKSXXXXXcUXVXXXXXXXXXX-459-773.png",
+            "https://img.alicdn.com/tfs/TB14_JUSXXXXXanXVXXXXXXXXXX-459-773.png"
+        ],
+        "id": 2,
+        "pageName": "theme-card-list",
+        "baseNuke": "both"
+    }
+}
